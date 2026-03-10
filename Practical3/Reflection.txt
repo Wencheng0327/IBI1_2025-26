@@ -1,0 +1,3 @@
+This practical was a good introduction to Git and GitHub.
+I have learnt about the basic knowledge to fork a repo, make changes, commit them and push them to my own fork. I belive it will benefit to me in the future.
+But there is also a big challenge for me, the problem of network really took me a lot of time to solve. And I found I often forgot to save the file and add them to the git, I will correct this mistake in the following practicum.
