@@ -1,4 +1,11 @@
 #7
+#initialize virables, input data and convert them into suitable types
+#chenk whether the variables are in their right range
+#if not: print to point out which is in wrong range, and assign a boolean false
+#else: going on
+#check the boolean: if true, calculate CrCl
+#define the formular of CrCl using age, weight, gender and Cr
+#print the result
 
 def CrCl (age, weight, gender, Cr):
     if gender == "male":
