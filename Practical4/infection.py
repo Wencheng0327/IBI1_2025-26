@@ -21,10 +21,10 @@ while current_infected < total_students:
     current_infected = current_infected * (1 + growth_rate)
     days += 1   #Add one day in each cycle.
     #if the number of "infected" students is bigger than the number of total students, it means all students are infected
-    if current_infected <= 91:
+    if current_infected <= total_students:
         print("Day", days, ":", current_infected, "infected","(around",round(current_infected),"infected)")
     else:
-        print("Day", days, ":", 91, "infected")
+        print("Day", days, ":", total_students, "infected")
         break
 
 # output total days that all students are infected
