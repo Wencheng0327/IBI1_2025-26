@@ -3,14 +3,16 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-#create dictionary
-gene_expression = { "TP53" : 12.4 ,
-                    "EGFR" : 20 ,
-                    "BRCA1" : 8.2 , 
-                    "PTEN" : 5.3 , 
-                    "ESR1" : 10.7 }
-gene_expression ["MYC"] = 11.6
-print( "gene expression dictionary: " )
+#create dictionary and add a gene
+gene_expression = { 'TP53' : 12.4 ,
+                    'EGFR' : 15.1 ,
+                    'BRCA1' : 8.2 , 
+                    'PTEN' : 5.3 , 
+                    'ESR1' : 10.7 }
+print( "initial gene expression dictionary: " )
+print( gene_expression )
+gene_expression ['MYC'] = 11.6
+print( "final gene expression dictionary: " )
 print( gene_expression )
 
 #bar chart
@@ -43,4 +45,5 @@ else:
 average_expression = sum( gene_expression.values () ) / len ( gene_expression )
 print( f"Average gene expression level: {average_expression:.2f}" )
 
+plt.tight_layout()
 plt.show()
