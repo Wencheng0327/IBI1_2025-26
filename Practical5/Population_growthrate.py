@@ -26,21 +26,21 @@ for country in population_2020:
     growth_rate[country] = rate
 
 # Sort from largest increase to largest decrease
-sorted_growth = sorted( growth_rate.items(), key=lambda x: x[1], reverse=True )
+sorted_growth = sorted( growth_rate.items(), key = lambda x: x[1], reverse = True )
 print("\nSorted population growth rates:")
 for country, rate in sorted_growth:
-    print(f"{country}: {rate:.2f}%")
+    print( f"{country}: {rate:.2f}%" )
 
 # Find largest increase and decrease
-largest_increase = max( growth_rate, key = growth_rate.get )
-largest_decrease = min( growth_rate, key = growth_rate.get )
+largest_increase = max(growth_rate, key=growth_rate.get)
+largest_decrease = min(growth_rate, key=growth_rate.get)
 
 print(f"\nLargest increase: {largest_increase}")
 print(f"Largest decrease: {largest_decrease}")
 
 # Prepare data for bar chart
-countries = list( growth_rate.keys() )
-rates = list( growth_rate.values() )
+countries = [country for country, rate in sorted_growth]
+rates = [rate for country, rate in sorted_growth]
 bars = plt.bar(countries, rates)
 
 plt.title("Population Growth Rate (2020-2024)")
@@ -48,6 +48,7 @@ plt.xlabel("Countries")
 plt.ylabel("Growth Rate (%)")
 plt.yticks(np.arange(-2, 5, 1))
 plt.grid(axis='y', linestyle='--', alpha=0.5)
+plt.axhline(0, color='black', linewidth=0.8)
 
 # Show values on top of bars
 for bar in bars:

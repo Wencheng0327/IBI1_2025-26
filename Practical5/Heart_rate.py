@@ -38,7 +38,12 @@ print(f"Largest category: {largest}")
 colors = ['#66c2a5', '#fc8d62', '#8da0cb']
 labels = categories.keys()
 sizes = categories.values()
-plt.pie( sizes, labels = labels, autopct = '%1.1f%%', startangle = 90, explode = [0, 0.1, 0], shadow = True, colors = colors ) 
+plt.pie(sizes, 
+        labels = labels,
+        autopct = '%1.1f%%', 
+        startangle = 90, 
+        explode = [0, 0.1, 0], 
+        colors = colors ) 
 plt.title("Heart Rate Categories")
 plt.axis( 'equal' )
 
