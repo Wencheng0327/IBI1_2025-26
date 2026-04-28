@@ -1,0 +1,10 @@
+question:  What was the distribution of DALYs across all countries in 2019?
+
+The code for this question is on lines 62 to 74 in dalys.py.
+
+Discussion:
+The histogram shows that the distribution of DALYs across countries in 2019 was right-skewed. 
+Most countries were concentrated in the lower to middle range, roughly between 18,000 and 35,000 DALYs. 
+As DALYs increased, the number of countries generally decreased. 
+There was also a long right tail, with a small number of countries showing much higher DALYs than most others. 
+This means that although many countries had relatively moderate DALYs, a few countries had a much heavier disease burden.
