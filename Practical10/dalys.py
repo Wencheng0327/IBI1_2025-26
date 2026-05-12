@@ -53,7 +53,7 @@ country_data = dalys_data.loc[dalys_data["Entity"] == chosen_country, ["Year", "
 plt.figure(figsize=(7, 4), dpi=150)
 plt.plot(country_data["Year"], country_data["DALYs"], "bo--")
 plt.xticks(country_data["Year"], rotation=-90)
-plt.xlabel("Years")
+plt.xlabel("Year")
 plt.ylabel("DALYs")
 plt.title(f"DALYs over time in {chosen_country}")
 plt.tight_layout()
