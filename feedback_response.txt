@@ -1,0 +1,7 @@
+Feedback Response
+
+I checked the formative feedback for Weeks 3, 4 and 5 and made changes where needed.
+For Week 3, I was told that many of my commit messages were too vague. I changed the commit messages for Practical 3 so that they describe the changes more clearly. I also checked again that my GitHub Pages website, Introductions.txt, thingsIlike.txt and Reflection.txt were all included and had my own content.
+For Week 4, I reviewed the feedback on variables.py and mystery_code.py. In variables.py, I added a clearer comment to state that the population growth is decelerating in Scotland. In mystery_code.py, I improved the answer comment so that it explains the code in a clearer and more accurate way. I also checked infection.py and creatine_clearance.py again to make sure they still worked properly.
+For Week 5, I got full marks, so there were no important corrections to make. However, I still reviewed the scripts and outputs again to confirm that everything was correct.
+This feedback helped me realise that good coding is not only about getting the right answer. It is also important to write clear comments, clear explanations and informative commit messages.
