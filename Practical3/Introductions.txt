@@ -1,4 +1,4 @@
 Hello, my name is Wencheng Qin.
 I like drinking coffee and eating burgers.
 I am enjoying jogging alone on campus 
-I am happy that I can learn something new in IBI and push my repo from Visual Studio Code to GitHub
+I am happy that I can learn something new in IBI and push my repo from Visual Studio Code to .
