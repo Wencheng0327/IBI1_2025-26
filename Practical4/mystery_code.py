@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:the code is to randomly selcet an integer from 1 to 10 11 times, calculating their sum and output the sum
+# Answer: This code randomly selects 11 integers from 1 to 10, adds them together, and prints the total.
 
 # Import libraries
 # randint allows drawing a random number,

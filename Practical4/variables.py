@@ -10,6 +10,7 @@ elif d == e:
     print ( "Population	growth is stable in Scotland." )
 elif d < e:
     print ( "Population	growth is accelerating in Scotland." )
+#comment： Population growth is decelerating in Scotland because d is larger than e.
 
 #4.2
 X = True
