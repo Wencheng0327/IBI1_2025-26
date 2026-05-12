@@ -1,5 +1,8 @@
-input_file = "Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa"
-output_file = "stop_genes.fa"
+import os
+
+base_dir = os.path.dirname(__file__)
+input_file = os.path.join(base_dir, "Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa")
+output_file = os.path.join(base_dir, "stop_genes.fa")
 stop_codons = {"TAA", "TAG", "TGA"}
 
 def parse_fasta(filename): # define a function called parse_fasta( ) to read the file 

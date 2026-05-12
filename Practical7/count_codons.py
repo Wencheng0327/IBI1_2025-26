@@ -1,7 +1,9 @@
+import os
 import matplotlib.pyplot as plt
 
-input_file = "Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa"# Input FASTA file containing yeast cDNA sequences
-valid_stops = {"TAA", "TAG", "TGA"}# Three valid stop codons
+base_dir = os.path.dirname(__file__)
+input_file = os.path.join(base_dir, "Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa") # Input FASTA file containing yeast cDNA sequences
+valid_stops = {"TAA", "TAG", "TGA"} # Three valid stop codons      
 
 # Three valid stop codons
 def parse_fasta(filename):# convert the file
@@ -81,8 +83,9 @@ plt.pie(sizes, labels=labels, autopct="%1.1f%%", startangle=90)
 plt.title(f"Distribution of in-frame codons upstream of {user_stop}")
 plt.tight_layout()
 
-output_file = f"codon_usage_{user_stop}.png"
+output_file = os.path.join(base_dir, f"codon_usage_{user_stop}.png")
 plt.axis("equal")
 plt.savefig(output_file, dpi=300)
+
 
 print(f"Pie chart saved as {output_file}")
