@@ -1,0 +1,5 @@
+The human DLX5 protein is 289 amino acids long and is located in the nucleus. In the online BLAST results, the percentage identity ranged from 52.3% to 100%. The best alignment with mouse DLX5 showed 96.5% identity.
+
+Using my Python alignment program, human DLX5 and mouse DLX5 had a BLOSUM62 score of 1490 and 96.54% identity. Human DLX5 compared with the random sequence had a score of -296 and 3.81% identity. Mouse DLX5 compared with the random sequence had a score of -303 and 3.46% identity.
+
+These results show that human and mouse DLX5 are the most closely related pair. This is expected because they are real homologous proteins, while the random sequence does not have meaningful biological similarity to either DLX5 sequence.
